@@ -1,6 +1,6 @@
 # Project Brief
 
-**Student:** [Your Name]  
+**Student:** [ Ana]  
 **Handle:** @[your-github-username]  
 **Course:** Web Design 2025 · Fall  
 **Date:** [Fill in date - Week 2]
@@ -34,18 +34,18 @@
 
 ### Accessibility Goals
 
-- [ ] Semantic HTML structure
-- [ ] Proper heading hierarchy
-- [ ] Alt text for images
-- [ ] Keyboard navigation support
-- [ ] Color contrast compliance
-- [ ] Screen reader compatibility
+- [X] Semantic HTML structure
+- [X] Proper heading hierarchy
+- [X] Alt text for images
+- [X] Keyboard navigation support
+- [X] Color contrast compliance
+- [X] Screen reader compatibility
 
 ### Responsive Design Strategy
 
 - [ ] Mobile-first approach
-- [ ] Flexible grid system
-- [ ] Scalable typography
+- [X] Flexible grid system
+- [X] Scalable typography
 - [ ] Optimized images
 - [ ] Touch-friendly interactions
 
@@ -55,9 +55,9 @@
 
 ### Key Sections/Pages
 
-1.
-2.
-3.
+1. **Galería Principal** - Grid de proyectos/ilustraciones con `grid-template-columns: repeat(auto-fit, minmax(clamp(200px, 30vw, 360px), 1fr))`
+2. **Detalle de Proyecto** - Página individual con full-size image, descripción técnica, tools usados, y contexto
+3. **Página "Sobre mí"** - Biografía, skills, y call-to-action (contacto/redes)
 
 ### Content Sources
 
@@ -75,20 +75,33 @@
 
 ### Visual Style
 
-<!-- Describe your aesthetic approach -->
+**Enfoque:** Minimalista limpio con énfasis en la obra (inspirado en Lynn & Tonic). Paleta neutra + acentos estratégicos de color. Tipografía clara y jerarquía robusta. NO overlays complejos; información visible siempre. Mobile-first responsivo.
 
 ### Color Palette
 
-<!-- List your main colors -->
+Usa variables definidas en `_variables.css`:
+- **Primario:** `--color-primary: #1d4ed8` (destaca CTAs, accents)
+- **Neutros:** `--color-text-primary`, `--color-text-secondary` para jerarquía
+- **Fondo:** `--color-bg: #ffffff` (máximo contraste, accesibilidad)
+- **Bordes/Separadores:** `--color-border-light` para sutileza
 
 ### Typography
 
-<!-- What fonts/typeface approach will you use? -->
+**System stack (no custom fonts aún):** `--font-family-base: system-ui, -apple-system, 'Segoe UI', Roboto...`
+- Escala fluida via `clamp()`: `--font-size-3xl` para h1, `--font-size-lg` para metadata
+- Jerarquía por tamaño + peso: h1 (3xl + bold), h2 (2xl + semibold), metadata (sm + medium)
+- Line-height: `--line-height-normal: 1.5` para body, `--line-height-tight: 1.2` para headings
 
 ### Inspiration/References
 
-<!-- List 2-3 websites or designs that inspire your approach -->
+<!-- Análisis basado en estos 3 portfolios -->
+- [Lynn & Tonic Work Gallery](https://lynnandtonic.com/work/) - Galería limpia, grid responsivo, info clara, WCAG AA+
+- [Active Theory](https://activetheory.net/) - Tipografía premium, espaciado generoso, animations smooth
+- *Tercera referencia: [Tobias Ahlin](https://tobiasahlin.com/) - Minimalist portfolio con motion design sutil*
 
+**Decisiones Concretas:**
+1. **Layout Grid:** `repeat(auto-fit, minmax(clamp(200px, 30vw, 360px), 1fr))` → responsive sin breakpoints
+2. **Contenido por proyecto:** Visible siempre, estructura semántica `figure/figcaption`, alt text descriptivo, metadata clara (tipo + fecha + 1-2 tags)
 ---
 
 ## Success Metrics

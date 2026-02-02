@@ -91,6 +91,25 @@
 - **[Brittany Chiang](https://brittanychiang.com/)**: Clean, accessible developer portfolio
 - **[Lynn Fisher](https://lynnandtonic.com/)**: Creative, playful personal site
 - **[Tobias Ahlin](https://tobiasahlin.com/)**: Minimalist designer portfolio (motion, typography)
+- **[Lynn & Tonic Work Gallery](https://lynnandtonic.com/work/)**: Galería minimalista con grid responsivo (9/10 accesibilidad)
+- **[Active Theory](https://activetheory.net/)**: Estudio premium con tipografía display y espaciado generoso
+
+#### 📊 Patrones Transferibles (Análisis Comparativo)
+
+1. **Grid Fluido con `auto-fit` + `clamp()`**
+   - Patrón: `grid-template-columns: repeat(auto-fit, minmax(clamp(200px, 30vw, 360px), 1fr))`
+   - Ventaja: Responsive sin media queries, accesible, mantiene proporción visual
+   - Aplicable a: Galería de proyectos, mosaico de ilustraciones
+
+2. **Información Contextual Visible (no overlays)**
+   - Patrón: Metadata (tipo, fecha, descripción) junto al thumbnail, nunca en hover
+   - Ventaja: Mobile-friendly, mejor accesibilidad, información clara en primera lectura
+   - Estructura: `<figure><img><figcaption><h3> + metadata + desc</h3></figcaption></figure>`
+
+3. **Tipografía Escalonada Consistente + Jerarquía por Peso**
+   - Patrón: Combina `--font-size-*` variables con `--font-weight-*` (no tamaño solo)
+   - Ventaja: Contraste visual sin necesidad de colores complejos, WCAG AA+ sin esfuerzo
+   - Aplicable a: Títulos, descripciones, metadata de proyectos
 
 ### Landing Pages
 
