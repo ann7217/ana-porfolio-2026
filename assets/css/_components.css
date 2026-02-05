@@ -162,6 +162,7 @@ footer a:hover {
 .site-title {
 	margin: 0;
 	font-size: var(--font-size-2xl);
+	text-
 }
 
 .lead {
@@ -169,4 +170,8 @@ footer a:hover {
 	line-height: var(--line-height-relaxed);
 	color: var(--color-text-primary);
 	font-weight: var(--font-weight-medium);
+}
+.mi-primer-estilo {
+	color:blueviolet;
+	font-style: italic;
 }
