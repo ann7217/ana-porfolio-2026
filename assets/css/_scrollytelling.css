@@ -6,6 +6,69 @@
    Uses Intersection Observer for performance.
    ============================================ */
 
+/* ===== HEADER NAVIGATION ===== */
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: rgba(15, 23, 42, 0.95);
+	backdrop-filter: blur(10px);
+	z-index: var(--z-sticky);
+	border-bottom: 1px solid var(--color-border-light);
+}
+
+.header-container {
+	max-width: var(--max-width);
+	margin: 0 auto;
+	padding: var(--space-md) var(--container-padding);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-brand {
+	font-family: var(--font-family-heading);
+	font-size: var(--font-size-xl);
+	font-weight: var(--font-weight-bold);
+	color: var(--color-primary);
+	letter-spacing: 1px;
+}
+
+.header-nav {
+	display: flex;
+	gap: var(--space-2xl);
+	align-items: center;
+}
+
+.nav-link {
+	color: rgba(255, 255, 255, 0.8);
+	text-decoration: none;
+	font-size: var(--font-size-sm);
+	font-weight: var(--font-weight-medium);
+	transition: color var(--transition-base);
+	position: relative;
+}
+
+.nav-link::after {
+	content: '';
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background: var(--color-primary);
+	transition: width var(--transition-base);
+}
+
+.nav-link:hover {
+	color: white;
+}
+
+.nav-link:hover::after {
+	width: 100%;
+}
+
 /* ===== HERO SECTION ===== */
 .hero {
 	min-height: 100vh;
@@ -13,9 +76,10 @@
 	align-items: center;
 	justify-content: center;
 	/*background: var(--gradient-hero);*/
-	background-image:url(https://ik.imagekit.io/anita24/Portafolio/ilustracion%20diente%20de%20leon%20deseo.jpg);
+	background-image:url(https://ik.imagekit.io/anita24/Portafolio/ilustracion%20chica%20sonido%20tambores.jpg?updatedAt=1770989512374);
 	text-align: center;
 	padding: var(--space-2xl);
+	padding-top: calc(var(--space-2xl) + 70px);
 }
 
 .hero h1 {
@@ -88,8 +152,37 @@
 }
 
 .text-large {
-	font-size: var(--font-size-xl);
+	font-size: var(--font-size-lg);
 	line-height: var(--line-height-relaxed);
+}
+
+/* ===== TWO-COLUMN LAYOUT ===== */
+.story-content-two-col {
+	display: flex;
+	gap: var(--space-xl);
+	max-width: 100%;
+	align-items: center;
+	width: 100%;
+}
+
+.story-col {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.story-col-left img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: var(--radius-lg);
+	box-shadow: var(--shadow-lg);
+}
+
+.story-col-right p {
+	color: rgba(255, 255, 255, 0.95);
+	margin-bottom: var(--space-lg);
 }
 
 /* ===== CHAPTER THEMES ===== */
@@ -236,6 +329,15 @@
 	transform: translateY(-5px);
 }
 
+.card-image {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto var(--space-lg);
+	border-radius: var(--radius-lg);
+	object-fit: cover;
+}
+
 .card h4 {
 	color: var(--color-accent-blue);
 	margin-bottom: var(--space-sm);
@@ -367,6 +469,24 @@
 
 /* ===== RESPONSIVE ADJUSTMENTS ===== */
 @media (max-width: 768px) {
+	.header-container {
+		flex-direction: column;
+		gap: var(--space-md);
+		padding: var(--space-md);
+	}
+
+	.header-brand {
+		font-size: var(--font-size-lg);
+	}
+
+	.header-nav {
+		gap: var(--space-lg);
+	}
+
+	.nav-link {
+		font-size: var(--font-size-xs);
+	}
+
 	.parallax-section {
 		background-attachment: scroll;
 	}
@@ -391,5 +511,11 @@
 	.stat-display {
 		grid-template-columns: 1fr;
 		gap: var(--space-lg);
+	}
+
+	/* Two-column layout stack on mobile */
+	.story-content-two-col {
+		flex-direction: column;
+		gap: var(--space-2xl);
 	}
 }

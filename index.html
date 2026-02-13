@@ -22,6 +22,18 @@
 <body>
 	<a href="#main" class="skip-link">Saltar al contenido</a>
 
+	<!-- Header Navigation -->
+	<header class="header">
+		<div class="header-container">
+			<div class="header-brand">Ann Tintin</div>
+			<nav class="header-nav">
+				<a href="#about" class="nav-link">Sobre mí</a>
+				<a href="#work" class="nav-link">Mi trabajo</a>
+				<a href="#contact" class="nav-link">Contacto</a>
+			</nav>
+		</div>
+	</header>
+
 	<!-- Hero Section -->
 	<div class="hero">
 		<div>
@@ -34,35 +46,40 @@
 	<!-- Main Content -->
 	<main id="main">
 		<!-- Chapter 1: About Me -->
-		<section class="story-section chapter-1" data-observe>
-			<div class="story-content">
-				<h2>Sobre Mí</h2>
-				<p class="text-large">
-					Hola, soy Ana Tintin, futura ilustradora y artista conceptual, apasionada por el diseño editorial e ilustrativo. Mi trabajo explora la naturaleza, la fantasía, la música, la belleza en lo sutil y sencillo,
-					combinando
-					técnicas tradicionales con herramientas digitales.
-				</p>
-
-				<div class="stat-display">
-					<div class="stat-item">
-						<span class="stat-number">3+</span>
-						<span class="stat-label">Años de Experiencia</span>
-					</div>
-					<div class="stat-item">
-						<span class="stat-number">50+</span>
-						<span class="stat-label">Proyectos Completados</span>
-					</div>
-					<div class="stat-item">
-						<span class="stat-number">10+</span>
-						<span class="stat-label">Clientes Satisfechos</span>
-					</div>
+		<section id="about" class="story-section chapter-1" data-observe>
+			<div class="story-content story-content-two-col">
+				<div class="story-col story-col-left">
+					<img src="https://ik.imagekit.io/anita24/Portafolio/ilustraciion%20acuarela%20ni%C3%B1a%20flores.jpg?updatedAt=1770987108155" alt="Ilustración Flor de Loto" />
 				</div>
+				<div class="story-col story-col-right">
+					<h2>Sobre Mí</h2>
+					<p class="text-large">
+						Hola, soy Ana Tintin, futura ilustradora y artista conceptual, apasionada por el diseño editorial e ilustrativo. Mi trabajo explora la naturaleza, la fantasía, la música, la belleza en lo sutil y sencillo,
+						combinando
+						técnicas tradicionales con herramientas digitales.
+					</p>
 
-				<p>
-					Creo que cada ilustración cuenta una historia. Mi proceso comienza con la investigación y
-					exploración conceptual,
-					seguido de bocetos y refinamiento iterativo hasta lograr la pieza final.
-				</p>
+					<!--  <div class="stat-display">
+						<div class="stat-item">
+							<span class="stat-number">3+</span>
+							<span class="stat-label">Años de Experiencia</span>
+						</div>
+						<div class="stat-item">
+							<span class="stat-number">50+</span>
+							<span class="stat-label">Proyectos Completados</span>
+						</div>
+						<div class="stat-item">
+							<span class="stat-number">10+</span>
+							<span class="stat-label">Clientes Satisfechos</span>
+						</div>
+					</div>-->
+
+					<p>
+						Creo que cada ilustración cuenta una historia. Mi proceso comienza con la investigación y
+						exploración conceptual,
+						seguido de bocetos y refinamiento iterativo hasta lograr la pieza final.
+					</p>
+				</div>
 			</div>
 		</section>
 
@@ -75,13 +92,14 @@
 		</div>
 
 		<!-- Chapter 2: My Work -->
-		<section class="story-section chapter-2" data-observe>
+		<section id="work" class="story-section chapter-2" data-observe>
 			<div class="story-content">
 				<h2>Mi Trabajo</h2>
 				<p class="text-large mb-lg">Me especializo en varias áreas de ilustración:</p>
 
 				<div class="interactive-cards">
 					<div class="card">
+						<img src="https://ik.imagekit.io/anita24/Portafolio/ilustraciion%20acuarela%20ni%C3%B1a%20flores.jpg?updatedAt=1770987108155" alt="Ilustración Editorial" class="card-image" />
 						<h4>Editorial</h4>
 						<p>Ilustraciones para revistas, libros y publicaciones digitales que capturan la esencia de cada
 							historia.</p>
@@ -160,7 +178,7 @@
 		</section>
 
 		<!-- Final CTA Section -->
-		<section class="final-section">
+		<section id="contact" class="final-section">
 			<div class="final-content">
 				<h2>¿Trabajamos Juntos?</h2>
 				<p>
