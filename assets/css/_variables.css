@@ -14,10 +14,10 @@
 
 	/* ===== COLOR SYSTEM ===== */
 	/* Primary brand colors */
-	--color-primary: #1d4ed8;
-	--color-primary-hover: #1e40af;
-	--color-primary-light: #3b82f6;
-	--color-primary-dark: #1e3a8a;
+	--color-primary: #c94b9f;
+	--color-primary-hover: #5193d4;
+	--color-primary-light: #56c4e3;
+	--color-primary-dark: #1e8a81;
 
 	/* Neutral colors for text and backgrounds */
 	--color-text-primary: #0f172a;
@@ -35,7 +35,7 @@
 	--color-border-dark: #94a3b8;
 
 	/* Semantic colors */
-	--color-success: #10b981;
+	--color-success: #27a2c4;
 	--color-warning: #f59e0b;
 	--color-error: #ef4444;
 	--color-info: #3b82f6;
@@ -108,15 +108,15 @@
 	--z-tooltip: 70;
 
 	/* ===== SCROLLYTELLING GRADIENTS ===== */
-	--gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-	--gradient-chapter-1: linear-gradient(135deg, #2c3e50, #34495e);
-	--gradient-chapter-2: linear-gradient(135deg, #c0392b, #8e44ad);
-	--gradient-chapter-3: linear-gradient(135deg, #27ae60, #2ecc71);
+	--gradient-hero: linear-gradient(135deg, #236173 0%, #43bb9d 100%);
+	--gradient-chapter-1: linear-gradient(135deg, #df61aa, #0c7f81);
+	--gradient-chapter-2: linear-gradient(135deg, #6c2665, #97e895);
+	--gradient-chapter-3: linear-gradient(135deg, #496c33, #e5f79e);
 
 	/* ===== SCROLLYTELLING COLORS ===== */
-	--color-accent-blue: #3498db;
-	--color-accent-red: #e74c3c;
-	--color-accent-green: #2ecc71;
+	--color-accent-blue: #a9d5f3;
+	--color-accent-red: #9ed1d4;
+	--color-accent-green: #c2dacc;
 	--color-overlay-dark: rgba(0, 0, 0, 0.4);
 	--color-card-bg: rgba(255, 255, 255, 0.05);
 	--color-card-border: rgba(255, 255, 255, 0.1);
@@ -131,7 +131,7 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-text-primary: #f1f5f9;
+		--color-text-primary: #7fc3d7;
 		--color-text-secondary: #cbd5e1;
 		--color-text-muted: #94a3b8;
 
