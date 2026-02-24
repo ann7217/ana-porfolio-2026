@@ -110,8 +110,8 @@
 	/* ===== SCROLLYTELLING GRADIENTS ===== */
 	--gradient-hero: linear-gradient(135deg, #236173 0%, #43bb9d 100%);
 	--gradient-chapter-1: linear-gradient(135deg, #df61aa, #0c7f81);
-	--gradient-chapter-2: linear-gradient(135deg, #6c2665, #97e895);
-	--gradient-chapter-3: linear-gradient(135deg, #496c33, #e5f79e);
+	--gradient-chapter-2: linear-gradient(135deg, #6c2665, #70b16f);
+	--gradient-chapter-3: linear-gradient(135deg, #496c33, #a0b357);
 
 	/* ===== SCROLLYTELLING COLORS ===== */
 	--color-accent-blue: #a9d5f3;

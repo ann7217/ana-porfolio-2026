@@ -76,7 +76,7 @@
 	align-items: center;
 	justify-content: center;
 	/*background: var(--gradient-hero);*/
-	background-image:url(https://ik.imagekit.io/anita24/Portafolio/ilustracion%20chica%20sonido%20tambores.jpg?updatedAt=1770989512374);
+	background-image:url(https://ik.imagekit.io/anita24/Portafolio/diente%20de%20leon%20en%20vuelo.jpg);
 	text-align: center;
 	padding: var(--space-2xl);
 	padding-top: calc(var(--space-2xl) + 70px);
@@ -84,7 +84,7 @@
 
 .hero h1 {
 	font-size: var(--font-size-4xl);
-	color: rgb(71, 131, 156);
+	color: rgb(39, 48, 51);
 	margin-bottom: var(--space-md);
 	font-weight: var(--font-weight-bold);
 	opacity: 0;
@@ -94,7 +94,7 @@
 
 .hero p {
 	font-size: var(--font-size-lg);
-	color: rgba(215, 233, 243, 0.9);
+	color: rgba(253, 254, 255, 0.9);
 	max-width: 600px;
 	margin: 0 auto var(--space-xl);
 	opacity: 0;
@@ -103,7 +103,7 @@
 }
 
 .scroll-indicator {
-	color: rgb(207, 225, 237);
+	color: rgb(240, 243, 245);
 	font-size: var(--font-size-sm);
 	opacity: 0;
 	animation: fadeInUp 1s ease 0.6s forwards, bounce 2s ease-in-out 1.6s infinite;
