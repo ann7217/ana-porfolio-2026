@@ -85,7 +85,12 @@ ann7217/mi portafolio
 3. Abrir el archivo `index.html` en el navegador.
 
 ## Capturas
-
+assets/img/inicio.png.png
+assets/img/sobre mi.png.png
+assets/img/trabajos 1.png.png
+assets/img/trabajos 2.png.png
+assets/img/final.png.png
+assets/img/final pag.png.png
 
 
 ## Créditos y agradecimientos:

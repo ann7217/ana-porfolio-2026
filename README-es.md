@@ -1,15 +1,16 @@
-# WEB ATELIER (UDIT) – Plantilla de Proyecto Estudiantil
+https://ann7217.github.io/ana-porfolio-2026/
+
+# Mi portafolio de ilustracion web
 
 _Critical Coding for a Better Living._
 
 **Construye un sitio real, accesible y multilingüe—commit cada semana.**
 
-Este repositorio es el **punto de partida para el proyecto personal de cada estudiante** dentro del marco WEB ATELIER (UDIT). Mientras que `web-foundations` proporciona las lecciones canónicas y `professor-course-template` organiza la instancia del curso, la **Plantilla de Proyecto Estudiantil** es donde cada estudiante diseña y desarrolla su propio sitio web. Cada semana, los estudiantes realizan commits aquí — _un estudiante · un repo · un proyecto · un commit por clase_.
+Este proyecto es mi portafolio web personal donde muestro mis proyectos y habilidades como ilustradora. Incluye diferentes trabajos como bocetos, ilustraciones personales, organizados para presentar mi estilo artístico. El objetivo es crear un sitio accesible, responsive y fácil de navegar. 
 
 ## Propósito y Audiencia
 
-- **Para Estudiantes:** Un repositorio personal para construir un proyecto web paso a paso, siguiendo las lecciones. Se publica en vivo mediante GitHub Pages.
-- **Para Profesores:** Un espacio para observar el progreso semanal de cada estudiante, su historial de commits y el proyecto final.
+- **Mi objetivo:** el objetivo de este sitio es presentar mi trabajo como ilustradora y crear una presencia online donde pueda mostrar mis proyectos artísticos.
 
 ## Tecnologías Principales (Explicación Detallada)
 
@@ -37,6 +38,10 @@ Este repositorio es el **punto de partida para el proyecto personal de cada estu
 - **YAML:** en `project.yaml` para describir metadatos (título, lema, URL, etc.).
 - **Liquid:** no lo editan los estudiantes directamente, pero se usa en plantillas de curso/profesor para mostrar info del proyecto.
 - **JSON-LD:** se añade automáticamente en los templates cuando los proyectos aparecen en el showroom.
+
+## Uso de IA
+Se utilizó inteligencia artificial como apoyo para:
+Resolución de dudas técnicas, generar ideas, mejorar el proyecto.
 
 ## Estructura del Repositorio
 
